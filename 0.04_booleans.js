@@ -57,16 +57,15 @@ console.log("!= operator:", 2!=1);
 
 
 
-/////CHALLENGES//////
 
-//BRONZE//
+
 console.log("\n");
 
 var hasGlasses = true;
 var isTall = false;
 var likesPasta = true;
 
-//SILVER//
+
 console.log("\n");
 
 var canPlayPiano = false;
@@ -77,7 +76,7 @@ console.log("I can play piano:",canPlayPiano)
 console.log("I like pizza:",likesPizza)
 console.log("I love guinea pigs:",lovesGuineaPigs)
 
-//GOLD//
+
 console.log("\n");
 
 console.log(canPlayPiano && likesPizza);

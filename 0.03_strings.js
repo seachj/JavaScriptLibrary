@@ -10,7 +10,7 @@ console.log(stringVar);
 var username = 'fleurmage';
 console.log(username);
 
-//can also include numbers and other characters like !
+//can also include numbers and other characters like "!""
 
 //string operators
 var birthCity = "Indianapolis";
@@ -43,14 +43,12 @@ console.log(highSchool.slice(3)); //removes first letters before index in functi
 
 
 
-/////CHALLENGES//////
 
-//BRONZE//
 console.log("\n");
 
 console.log("I graduated from "+highSchool+" in "+graduatedHS+".");
 
-//SILVER//
+
 console.log("\n");
 
 var carYear = 2009;
@@ -61,7 +59,7 @@ var carString = carYear+" "+carMake+" "+carModel;
 
 console.log("I drive a",carString);
 
-//GOLD//
+
 console.log("\n");
 
 var lowerCaseString = "sup dude"

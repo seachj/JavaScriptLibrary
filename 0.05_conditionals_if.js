@@ -1,25 +1,22 @@
-var isOn = true;
+var isWindy = true;
 var isHot = true;
 
-if (isOn){
-	console.log("The light is on.");
+if (isWindy){
+	console.log("It's windy out.");
 }
 
-if(isOn === true){
-	console.log("The light is still on.");
+if(isWindy === true){
+	console.log("It's still windy out.");
 }
 
-isOn - true;
-isHot = true;
-
-if(isOn&&isHot){
-	console.log("The light is on and it is hot.")
+if(isWindy&&isHot){
+	console.log("It's both windy and hot out.")
 }
 
-if(isOn||isHot){
-	console.log("I'm not sure what to say.");
+if(isWindy||isHot){
+	console.log("It's either windy or hot.");
 }
 
-if(!isOn){
-	console.log("The light is not on.");
+if(!isWindy){
+	console.log("It's not windy out.");
 }

@@ -1,9 +1,3 @@
-//--------------------------------------------------------
-//--------------------------------------------------------
-// -------------- Lesson: Do/While Loops------------------
-//--------------------------------------------------------
-//--------------------------------------------------------
-
 //KEY POINT: DO WHILE Loops goes one time through no matter what.
 //This means it will go through the code once, then repeat as long as the
 //condition is met. 
@@ -21,8 +15,6 @@ do {
 
 // DO WHILE Loops are rare in the wild, but you should recognize them.
 
-//--------------------------------------------------------
-// You create one. 
 
 var doNum1 = 10;
 var doNum2 = 200;

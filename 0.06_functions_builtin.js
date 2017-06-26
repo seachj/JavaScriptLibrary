@@ -33,9 +33,3 @@ console.log(x);
 
 var today = Date();
 console.log(today);
-
-
-/*TASK;
-	Go through and play around with the built-in functions. Try to find 3 that 
-	you can implement.
-*/

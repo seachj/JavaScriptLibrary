@@ -9,10 +9,10 @@ console.log(z);
 var age = 22;
 var spaghetti = 1000;
 
-//camelCasing
-var numberOfGrammysIHaveWon = 0;
+
+var numberOfBooksIHaveWritten = 0;
 var myBirthYear = 1994;
-var newNumber = (z * numberOfGrammysIHaveWon * z);
+var newNumber = (z * numberOfBooksIHaveWritten * z);
 
 
 //shorthand operators
@@ -39,9 +39,9 @@ var eleven=9;
 console.log(eleven * eleven);
 
 
-/////CHALLENGES//////
 
-//BRONZE//
+
+
 console.log("\n");
 
 var overwatchSR = 2300;
@@ -56,7 +56,7 @@ console.log(heightInInches);
 console.log(numPizzaSlices);
 console.log(froyoOunces);
 
-//SILVER//
+
 console.log("\n");
 
 var myNumber = 0;
@@ -70,7 +70,7 @@ console.log(myNumber);
 myNumber/=7;
 console.log(myNumber);
 
-//GOLD//
+
 console.log("\n");
 
 var maxAge = 100;

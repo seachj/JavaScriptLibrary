@@ -1,24 +1,24 @@
-var elevatorUp = true;
-var elevatorDown = true;
-var elevatorBroken = true;
-var elevatorStuckWhileWeAreOnIt = true;
-var elevatorNumber = 13;
+var raining = true;
+var notRaining = true;
+var storming = true;
+var stormingWhileOut = true;
+var rainInches = 13;
 
-if (elevatorUp === true){
-	console.log("Going up");
+if (raining === true){
+	console.log("Let's take an umbrella.");
 }else{
-	console.log("Not going up");
+	console.log("No need for an umbrella.");
 }
 
-if (elevatorBroken===true){
-	console.log("Let's take the stairs");
+if (storming===true){
+	console.log("Let's not go out.");
 }else{
-	console.log("Which floor?");
+	console.log("Where should we go?");
 }
 
 
 //combining variable types for conditionals
-if (elevatorStuckWhileWeAreOnIt && elevatorNumber === 13){
+if (stormingWhileOut && rainInches === 13){
 	console.log("Today is not our lucky day.");
 }else{
 	console.log("That could have been trouble");

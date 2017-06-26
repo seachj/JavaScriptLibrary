@@ -1,15 +1,15 @@
-//data type that stores a collection of properties and functions
+//an object is a data type that stores a collection of properties and functions
 
 
 var emptyObject = {};
 
 
-var johnQualls = {
+var josieSeach = {
 	//properties
-	name : "John Qualls",
-	age: 49,
-	vocation: "President of Eleven Fifty Academy",
-	isRetired:false,
+	name : "Josie Seach",
+	age: 22,
+	vocation: "Student",
+	hasGraduated:false,
 
 	//methods (functions)
 	//for operations you want to perform often with this object
@@ -25,15 +25,15 @@ var johnQualls = {
 	},
 };
 
-console.log(johnQualls);
-console.log(johnQualls.name);
-console.log(johnQualls.age);
-//console.log(johnQualls.middleName); //when attempting to access an undefined property, output is "undefined"
+console.log(josieSeach);
+console.log(josieSeach.name);
+console.log(josieSeach.age);
+//console.log(josieSeach.middleName); //when attempting to access an undefined property, output is "undefined"
 console.log("-------------------------------------");
-johnQualls.greeting();
-johnQualls.ageOf();
+josieSeach.greeting();
+josieSeach.ageOf();
 console.log("----------------");
-johnQualls.extendGreeting();
+josieSeach.extendGreeting();
 
 
 console.log("-------------------------------------");

@@ -1,10 +1,10 @@
-var isFast=true;
-var isSmart=true;
+var isHungry=true;
+var isThirsty=true;
 
-if (isFast){
-	console.log("Wow, you're fast");
-}else if(isSmart){
-	console.log("Wow, you're smart");
+if (isHungry){
+	console.log("Let's get a burger.");
+}else if(isThirsty){
+	console.log("Let's get a soda.");
 }else{
-	console.log("Maybe spend more time in the gym/school");
+	console.log("Let's get a burger and a soda.");
 }

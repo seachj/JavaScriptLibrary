@@ -8,9 +8,7 @@ console.log(10 % 5);
 console.log(10 % 4);
 
 
-/////CHALLENGES//////
 
-//BRONZE//
 console.log("\n");
 
 var age = 22;
@@ -22,14 +20,14 @@ console.log(birthYear);
 console.log(gradYear);
 console.log(numSiblings);
 
-//SILVER//
+
 console.log("\n");
 
 console.log(11%2);
 console.log(11%3);
 console.log(82%14);
 
-//GOLD//
+
 console.log("\n");
 
 console.log("Is it true that 'spaghetti' is not a number?",isNaN("spaghetti"));
